@@ -4,7 +4,7 @@
     $prodi = "D4 Teknik Informatika";
 
     echo "<h1>Latihan Mata Kuliah Web Programming<h1><br>";
-    echo $nama; echo "<br>";
-    echo $kelas; echo "<br>";
-    echo $prodi; echo "<br>";
+    echo "Nama : ".$nama; echo "<br>";
+    echo "Kelast : ".$kelas; echo "<br>";
+    echo "Prodi : ".$prodi; echo "<br>";
 ?>
