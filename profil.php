@@ -3,8 +3,8 @@
     $kelas = "4C";
     $prodi = "D4 Teknik Informatika";
 
-    echo "<h1>Latihan Mata Kuliah Web Programming<h1><br>";
-    echo "Nama : ".$nama; echo "<br>";
-    echo "Kelast : ".$kelas; echo "<br>";
-    echo "Prodi : ".$prodi; echo "<br>";
+    echo "<h2>Latihan Mata Kuliah Web Programming</h2><br>";
+    echo "Nama : " . $nama ."<br>";
+    echo "Kelast : " . $kelas . "<br>";
+    echo "Prodi : " . $prodi . "<br>";
 ?>
