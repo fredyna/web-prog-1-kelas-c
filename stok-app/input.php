@@ -9,7 +9,7 @@
 <body>
     <h2>Formulir Entri Data</h2>
     <hr>
-    <form action="simpan-baru.php">
+    <form method="post" action="simpan-baru.php">
         <table>
             <tr>
                 <td>

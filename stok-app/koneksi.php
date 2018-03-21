@@ -1,12 +1,15 @@
 <?php
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $db = "phb_kelas_c";
+    class Koneksi{
+        private $server = "localhost";
+        private $username = "root";
+        private $password = "";
+        private $db = "phb_kelas_c";
 
-    $conn = new mysqli($server, $username, $password, $db);
-    if($conn->connect_error){
-        die("Connection failed : " . $conn->connect_error);
+        function getKoneksi(){
+            return new mysqli($this->server, $this->username, $this->password, $this->db);
+        }
+
     }
+    
     
 ?>
