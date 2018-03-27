@@ -8,6 +8,7 @@
         <th>Kode</th>
         <th>Nama Barang</th>
         <th>Stok</th>
+        <th>Action</th>
     </tr>
 <?php
     require_once('koneksi.php');
@@ -34,6 +35,7 @@
             echo "<td>".$row['kode']."</td>";
             echo "<td>".$row['nama_barang']."</td>";
             echo "<td>".$row['stok']."</td>";
+            echo '<td><a href="form-edit.php?kode='.$row['kode'].'">Edit</a></td>';
             echo "</tr>";
         }
     }
