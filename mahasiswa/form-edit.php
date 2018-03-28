@@ -33,6 +33,7 @@
             echo "Data tidak ditemukan";
         } else{
             while($row = $data->fetch_assoc()){
+                $nim    = $row['nim'];
                 $nama   = $row['nama'];
                 $jl     = $row['jenis_kelamin'];
                 $smt    = $row['semester'];
