@@ -82,6 +82,7 @@
             </tr>
         </table>
         <input type="submit" value="Simpan">
+         <button type="button" onclick="window.location.href='index.php'">Batal</button>
     </form>
 </body>
 </html>
